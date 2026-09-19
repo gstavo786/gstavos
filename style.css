@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+    height: 50px;
+}
+
+.intro{
+    padding: 25px 60px;
+    text-align: justify;
+}
+
+main{
+    text-align: center;
+}
+
+.rank{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card span{
+    font-size: 20px;
+}
+
+.card small{
+    color: rgb(78, 78, 78);
+}
+
+.card img{
+    height: 100px;
+    width: 160px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
