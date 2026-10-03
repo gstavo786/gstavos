@@ -1,6 +1,8 @@
 body{
     background-color: aquamarine;
     margin: 0;
+    margin-top: 5%;
+    font-family: 'osvaldo';
 }
 
 nav{
@@ -8,12 +10,28 @@ nav{
     color: white;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav img{
     height: 50px;
+}
+
+nav a{
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    background-color: rgb(31, 154, 211);
+    color: white;
 }
 
 .intro{
@@ -50,4 +68,29 @@ main{
     width: 160px;
     border-radius: 10px;
     border: 1px solid black;
+}
+h2{
+    font-family: sei la;
+}
+
+h3{
+    font-family: nao sei;
+}
+
+h1{
+    font-family: 'sei la';
+}
+
+@font-face {
+    font-family: 'ultra fresh';
+    src: url(Ultra\ Fresh\ -\ Demo.ttf);
+}
+@font-face {
+    font-family: sei la;
+    src: url(Remingtoned\ Type.ttf);
+}
+
+@font-face {
+    font-family: nao sei;
+    src: url(elegant_typewriter.zip);
 }
